@@ -1,0 +1,349 @@
+
+
+body, h1, h2, h3, h4, h5, h6, p{
+	font-family: 'Roboto'; 
+}
+header{
+padding: 20px;
+}	
+#logo{
+ display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+#logo a:hover {
+	color: rgba(126,3,208,1);
+  transition-duration: 1s;
+  }
+
+
+
+#logo a {
+	text-decoration: none;
+color: black;
+}
+
+#logo h1{
+	font-size: 32px;
+	font-style: italic;
+
+}
+#logo h2{
+	margin-top: -10px;
+	font-size: 17px;
+	font-style: italic;
+	font-family:  'Roboto';  
+	font-weight: 100;
+}
+
+.btnmenu{
+
+display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.btn-secondary.focus, .btn-secondary:focus 
+{
+
+color: white;
+background-color: rgba(53,9,120,3);
+border-color: rgba(53,9,120,3);
+box-shadow: none;
+}
+header .btn{
+
+	z-index: 1;
+	background-color: white;	
+	color: black;
+	border-color: white;	
+	font-family:  'Roboto';  
+	font-weight: 100;
+	font-size: 30px;
+
+}
+
+header .btn-secondary{
+	border-color: rgba(53,9,120,3);		
+	font-family:  'Roboto';  
+	font-weight: 100;
+	height: 60px;
+	width: 60px;
+
+}
+header .btn-secondary:hover{
+	  transition-duration: 1s;
+	background-color: rgba(53,4,112,1);	
+	color: white;
+}
+.dropdown-item{
+			
+	font-family: 'Roboto'; 
+	font-weight: 100;
+	font-size: 10px;
+	padding: 10px;
+}
+.dropdown-menu{
+	margin-right: 80%;
+	font-family: 'Roboto'; 
+	font-weight: 100;
+	font-size: 10px;
+}
+.dropdown-item:hover{
+	background-color:  rgba(53,4,112,1);	
+	font-family: 'Roboto'; 
+	font-weight: 100;
+	font-size: 12px;
+	color: white;
+}
+
+/*SECTION & ASIDE-------------------------*/
+.insight_img {
+margin-left: -15px;
+width: 100%
+height:100%;
+}
+.insight_text {
+	font-family: 'Roboto'; 
+	font-weight: 100;
+	padding-top: 10%;
+	color: white;
+	font-size: 30px;
+	background: linear-gradient(to right, rgba(126,3,208,1) 0%, rgba(53,4,112,1) 100%);
+}
+.ultimos{
+width: 100%;
+padding-left: 4%;
+margin-top: 2%;
+}
+.ult {
+	padding-top: 5%;
+	height: 50%;
+}
+.ult h2{
+	padding-top: 5%;
+	font-size: 20px;
+}
+.ultimos .ult h2:hover {
+	color: purple;
+  	transition-duration: 1s;
+  }
+.ult p{
+		font-size: 15px;
+
+	width: 90%;
+	font-weight: 100;
+}
+.btngo {
+	margin-left: 40%;
+	font-size: 20px;
+	height: 30px; 
+	width: 90px;
+	background-color: white;
+	border-color: black;
+	color: black;
+	font-family: 'Roboto';
+	font-weight: 500;
+}
+
+.ultimos .ult .btnimg {
+filter: grayscale(100%);}
+
+.ultimos .ult .btnimg:hover {
+filter: grayscale(0%);
+  transition-duration: 1s;
+  }
+.ultimos .ult .btngo:hover {
+      transform: scale(1.2, 1.2);
+      transition-duration: 1s; }
+
+.areas {
+	margin-top: 10%;
+	margin-bottom: 15%;
+	position: center;
+}
+.areas .area {
+text-align: center;
+}
+.areas h2{
+	margin-bottom: 5%;
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-style: italic;
+	text-align: center;
+}
+
+.areas a h3{
+text-decoration: none;
+font-size: 15px;
+font-family: 'Roboto'; 
+font-weight: 100;
+color: black;
+}
+
+ .areas .area:hover {
+      transform: scale(1.2, 1.2);
+      transition-duration: 1s; 	
+  }
+/*FOOTER --------------------------------*/
+
+footer{
+	background-color: #000000;
+	color: #ffffff;
+	height: 150px;
+}
+#sublogo {
+	padding: 2%;
+	 display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#sublogo a {
+text-decoration: none;}
+
+#sublogo h3{
+	margin-left: 5px;
+	font-size: 25px;
+	font-style: italic;
+}
+#sublogo h4{
+	padding: 1%;
+	margin-top: -10px;
+	font-size: 19px;
+	font-style: italic;
+	font-family: 'Roboto'; 
+	font-weight: 100;
+
+}
+#data {
+ display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#data a {
+text-decoration: none;
+font-size:15px;
+font-weight: 500;
+color: white;}
+
+#data h6{
+	font-family: 'Roboto';
+	font-weight: 100;
+	text-align: right;
+	font-size: 15px;
+}
+
+.text_audiovisuales h3
+{
+	font-family: 'Roboto';
+	font-weight: 300;
+	padding: 3%;
+	text-align: center;
+}
+
+.slider_nana
+{
+	margin-top: 5%;
+}
+.texto_slider_nana
+{
+	margin-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 90%;	
+}	
+.texto_slider_nana p
+{
+	font-family: 'Roboto';
+	font-weight: 100;
+	font-style: italic;
+	margin-top: 5%;
+	padding-left: 5%;
+}
+.texto_slider_nana h2
+{
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 20px;
+	margin-top: 5%;
+	padding-left: 5%;
+	margin-right: 5%;
+}
+.video_youtube
+{
+	margin-top: 5%;
+	padding-right: 15%;
+}
+
+.btnmodal{
+
+	color: white;
+	background-color: black;
+	border-color: white;
+	font-family: 'Roboto';
+	font-weight: 100;
+	font-style: italic;
+
+}
+.btnmodal:hover{
+transition-duration: 0.5s;
+	background-color: rgba(53,4,112,1);	
+	border-color: rgba(53,4,112,1);	
+}
+
+.btncont{
+
+	color: black;
+	background-color: white;
+	border-color: black;
+	font-family: 'Roboto';
+	font-weight: 100;
+	font-style: italic;
+
+}
+.btncont:hover{
+	transition-duration: 0.5s;
+	background-color: rgba(53,4,112,1);	
+	border-color: rgba(53,4,112,1);	
+}
+.btn-primary:focus{
+	box-shadow: none;
+
+	background-color: rgba(53,4,112,1);	
+	border-color: rgba(53,4,112,1);	
+}
+
+.formulario_contacto, h6{
+
+	color: black;
+	background-color: white;
+	border-color: black;
+	font-family: 'Roboto';
+	font-weight: 100;
+	font-style: italic;
+
+}
+.map {
+	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+}
+.titulo{
+	font-family: 'Roboto';
+	font-weight: 300;
+	color: black;
+
+}
+
+.img_construccion{
+	width: 70%;
+	padding-left: 30%;
+	margin-top: 5%;
+	margin-bottom: 20%;
+	
+}
+
+
+
+
